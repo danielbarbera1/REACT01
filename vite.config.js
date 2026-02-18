@@ -11,6 +11,10 @@ export default defineConfig({
   eslint: {
     ignoreDuringBuilds: true,
   },
+  server: {
+    host: true,
+    port: 3000,
+  },
 })
 
 
