@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/REACT01/',
   plugins: [react(), tailwindcss()],
   build: {
     outDir: 'dist', // Asegura que el directorio de salida sea "dist"
@@ -14,4 +15,3 @@ export default defineConfig({
     port: 3000,
   },
 })
-
