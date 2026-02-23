@@ -8,13 +8,10 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Asegura que el directorio de salida sea "dist"
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  // Nota: no configurar ESLint directamente en Vite sin plugin; usa un plugin si lo necesitas
   server: {
     host: true,
     port: 3000,
   },
 })
-
 
