@@ -1,4 +1,4 @@
-import Section from "../components/section";
+import Section from "../Components/Section";
 import { Link } from "react-router-dom";
 function Inicio() {
     return (

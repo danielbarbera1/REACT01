@@ -6,6 +6,7 @@ import Inicio from "./pages/Inicio";
 import AcercaDe from "./Pages/AcercaDe";
 import Contacto from "./Pages/Contacto";
 import Servicios from "./Pages/Servicios";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -34,9 +35,9 @@ function NotFound() {
       <div className="text-center">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">404</h1>
         <p className="text-xl text-gray-600">Página no encontrada</p>
-        <a href="/" className="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+        <Link to="/" className="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
           Volver al Inicio
-        </a>
+        </Link>
       </div>
     </div>
   );
