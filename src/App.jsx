@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Flooter from "./Components/Flooter";
 import Navbar from "./Components/Navbar";
-import Inicio from "./pages/Inicio";
+import Inicio from "./Pages/Inicio";
 import AcercaDe from "./Pages/AcercaDe";
 import Contacto from "./Pages/Contacto";
 import Servicios from "./Pages/Servicios";
